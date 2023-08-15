@@ -20,7 +20,7 @@ const Row = ({title, fetchURL, ID}) => {
         slider.scrollLeft = slider.scrollLeft + 500;
     }
   return (
-    <div className='text-white'>
+    <div className='text-white '>
     <h2 className='font-bold md:text-xl p-4'>{title}</h2>
     <div className='relative flex items-center group'>
         <MdChevronLeft size={40} className="bg-white left-0 text-black rounded-full absolute opacity-50 hover:opacity-100 cursor-pointer z-10 hidden group-hover:block" onClick={slideleft} />

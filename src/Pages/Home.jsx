@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
         
-        <Main />
+        <Main  />
         <Row ID='1' title='Up coming' fetchURL={requests.requestUpcoming} />
         <Row ID='2' title='Top rating' fetchURL={requests.requestTopRated} />
         <Row ID='3' title='Popular' fetchURL={requests.requestPopular} />
